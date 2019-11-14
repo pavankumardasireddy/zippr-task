@@ -1,3 +1,4 @@
 import React from "react"
 
-export default props => <div>Hey this is Dashboard page</div>
+const Dashboard = props => <div>Hey this is Dashboard page</div>
+export default Dashboard
