@@ -25,15 +25,7 @@ const styles = theme => ({
   }
 })
 
-const goToDashboard = e => {
-  e.preventDefault()
-  this.props.history.push("/dashboard")
-}
-
 class Login extends React.Component {
-  constructor(props) {
-    super(props)
-  }
   render() {
     const { classes } = this.props
 
