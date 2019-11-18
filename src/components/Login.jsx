@@ -26,9 +26,30 @@ const styles = theme => ({
 })
 
 class Login extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      credentials: {
+        email: "",
+        password: ""
+      }
+    }
+  }
+
+  onChangeHandler = name => event => {
+    var value = event.target.value ? event.target.value : ""
+    this.setState(
+      state => {
+        state.credentials[name] = value
+      },
+      () => {
+        console.log("state values: ", this.state.credentials)
+      }
+    )
+  }
+
   render() {
     const { classes } = this.props
-
     return (
       <Container component="main" maxWidth="xs">
         <CssBaseline />
@@ -46,6 +67,7 @@ class Login extends React.Component {
               name="email"
               autoComplete="email"
               autoFocus
+              onChange={this.onChangeHandler("email")}
             />
             <TextField
               margin="normal"
@@ -56,6 +78,7 @@ class Login extends React.Component {
               type="password"
               id="password"
               autoComplete="current-password"
+              onChange={this.onChangeHandler("password")}
             />
             <Link to="/dashboard">
               <Button

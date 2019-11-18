@@ -1,22 +1,210 @@
 {
-  "employees": [
+  "reports": [
     {
       "id": 1,
-      "first_name": "Sebastian",
-      "last_name": "Eschweiler",
-      "email": "sebastian@codingthesmartway.com"
+      "ulbName": "Chimakurthy",
+      "parcelsCount": 10436,
+      "buildings": 43,
+      "portions": 12389,
+      "agents": 67
     },
     {
       "id": 2,
-      "first_name": "Steve",
-      "last_name": "Palmer",
-      "email": "steve@codingthesmartway.com"
+      "ulbName": "Vijayawada",
+      "parcelsCount": 32411,
+      "buildings": 56,
+      "portions": 87448,
+      "agents": 23
     },
     {
       "id": 3,
-      "first_name": "Ann",
-      "last_name": "Smith",
-      "email": "ann@codingthesmartway.com"
+      "ulbName": "Vizag",
+      "parcelsCount": 83493,
+      "buildings": 32,
+      "portions": 334,
+      "agents": 12
+    },
+    {
+      "id": 4,
+      "ulbName": "Chittor",
+      "parcelsCount": 89343,
+      "buildings": 98,
+      "portions": 123664,
+      "agents": 75
+    },
+    {
+      "id": 5,
+      "ulbName": "Karnool",
+      "parcelsCount": 93473,
+      "buildings": 83,
+      "portions": 2647,
+      "agents": 65
+    },
+    {
+      "id": 6,
+      "ulbName": "Nallagonda",
+      "parcelsCount": 87369,
+      "buildings": 53,
+      "portions": 7364,
+      "agents": 14
+    },
+    {
+      "id": 7,
+      "ulbName": "Avanigadda",
+      "parcelsCount": 57393,
+      "buildings": 67,
+      "portions": 7383,
+      "agents": 52
+    },
+    {
+      "id": 8,
+      "ulbName": "Gudivada",
+      "parcelsCount": 53849,
+      "buildings": 54,
+      "portions": 6286,
+      "agents": 24
+    },
+    {
+      "id": 9,
+      "ulbName": "Nagole",
+      "parcelsCount": 73493,
+      "buildings": 53,
+      "portions": 7238,
+      "agents": 34
+    },
+    {
+      "id": 10,
+      "ulbName": "Kanuru",
+      "parcelsCount": 76348,
+      "buildings": 63,
+      "portions": 58503,
+      "agents": 53
+    },
+    {
+      "id": 11,
+      "ulbName": "Amaravathi",
+      "parcelsCount": 63933,
+      "buildings": 34,
+      "portions": 383,
+      "agents": 5
+    },
+    {
+      "id": 12,
+      "ulbName": "Vijayanagaram",
+      "parcelsCount": 76328,
+      "buildings": 63,
+      "portions": 7334,
+      "agents": 63
+    },
+    {
+      "id": 13,
+      "ulbName": "Srikakulam",
+      "parcelsCount": 73903,
+      "buildings": 63,
+      "portions": 7328,
+      "agents": 67
+    },
+    {
+      "id": 14,
+      "ulbName": "Hyderabad",
+      "parcelsCount": 83439,
+      "buildings": 75,
+      "portions": 634934,
+      "agents": 75
+    },
+    {
+      "id": 15,
+      "ulbName": "Secunderabad",
+      "parcelsCount": 7340937,
+      "buildings": 98,
+      "portions": 73489,
+      "agents": 64
+    },
+    {
+      "id": 16,
+      "ulbName": "Ranga reddy",
+      "parcelsCount": 734939,
+      "buildings": 39,
+      "portions": 73843,
+      "agents": 73
+    },
+    {
+      "id": 17,
+      "ulbName": "Ongole",
+      "parcelsCount": 73733,
+      "buildings": 73,
+      "portions": 8334,
+      "agents": 98
+    },
+    {
+      "id": 18,
+      "ulbName": "Nuzveedu",
+      "parcelsCount": 738393,
+      "buildings": 7394,
+      "portions": 637,
+      "agents": 64
+    },
+    {
+      "id": 19,
+      "ulbName": "Karnataka",
+      "parcelsCount": 738439,
+      "buildings": 739,
+      "portions": 6839,
+      "agents": 99
+    }
+  ],
+  "districts": [
+    {
+      "id": 1,
+      "name": "Krishna",
+      "value": "krishna"
+    },
+    {
+      "id": 2,
+      "name": "Visakhapatnam",
+      "value": "vizag"
+    },
+    {
+      "id": 3,
+      "name": "Guntur",
+      "value": "guntur"
+    },
+    {
+      "id": 4,
+      "name": "Khammam",
+      "value": "khammam"
+    },
+    {
+      "id": 5,
+      "name": "Nalgonada",
+      "value": "nalgonda"
+    },
+    {
+      "id": 6,
+      "name": "Karnool",
+      "value": "karnool"
+    }
+  ],
+  "agencies": [
+    {
+      "id": 1,
+      "name": "Agency1",
+      "value": "agency1"
+    },
+    {
+      "id": 2,
+      "name": "Agency2",
+      "value": "agency2"
+    },
+    {
+      "id": 3,
+      "name": "Agency3",
+      "value": "agency3"
+    },
+    {
+      "id": 4,
+      "name": "Agency4",
+      "value": "agency4"
     }
   ]
 }
